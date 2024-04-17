@@ -1,0 +1,29 @@
+nav li{
+    padding: 0 8px;
+}
+nav a{
+    float: right;
+}
+
+.nav-item a:hover{
+    color: rgb(27, 174, 156);
+    text-decoration: underline ;
+    text-underline-offset: 1em;
+}
+nav button{
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:992px){
+    .pintar{
+        background-color: black;
+    }
+    .nav-item a:hover{
+        color: rgb(33,37,41);
+        text-decoration: none;
+    }
+    nav li:hover{
+        background-color: rgb(155,157,158);
+        border-radius: 4px;
+    }
+}

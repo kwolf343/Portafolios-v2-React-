@@ -1,0 +1,19 @@
+footer a, footer p{
+    color: rgb(139, 146, 174);
+}
+footer{
+    padding: 20px 0;
+}
+i{
+    margin: 5px;
+    font-size: 30px;
+    transition: 0.8s;
+}
+i:hover{
+    color: white;
+    font-size: 25px;
+}
+footer p{
+    margin: 0;
+    margin-top: 5px;
+}

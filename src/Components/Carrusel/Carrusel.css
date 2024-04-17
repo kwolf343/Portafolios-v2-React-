@@ -1,0 +1,387 @@
+/******************************/
+/*        Contenedores        */
+/******************************/
+* {
+    color: #fff;
+}
+
+:host {
+    --mi-color: rgb(52, 207, 208);
+}
+
+.contenidoSlider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    padding: 3%;
+    height: 100%;
+}
+
+h2 {
+    color: #ffff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container-central {
+    height: 100%;
+}
+
+.container-inferior {
+    height: calc(100% - 6vh);
+}
+
+#flecha {
+    width: 6%;
+    z-index: 0;
+}
+.imagenSlider{
+    border-radius: 15px;
+}
+/******************************/
+/*          Slider 1          */
+/******************************/
+.boton-curriculum {
+    position: absolute;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(0, 177, 187);
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 7%;
+}
+
+.boton-curriculum:hover {
+    background-color: rgb(0, 159, 168);
+}
+
+.boton-curriculum:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.boton-curriculum>i {
+    margin-left: 15px;
+    color: #fff;
+}
+
+.btns-curriculum {
+    padding: 1% 10% 1% 0;
+}
+
+.btns-curriculum div {
+    float: left;
+    height: 50%;
+    padding-top: 10px;
+}
+
+.btns-curriculum img {
+    height: 100%;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+.btns-curriculum img:hover {
+    transform: scale(0.95);
+}
+.btns-curriculum img:active {
+    transform: scale(0.9);
+}
+/******************************/
+/*          Slider 2          */
+/******************************/
+#pc {
+    height: 95%;
+    width: min-content;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+
+#laptop {
+    position: relative;
+    height: 50%;
+    left: -5%;
+    top: 35%;
+}
+
+#celular {
+    position: relative;
+    height: 40%;
+    right: -15%;
+    top: 40%;
+}
+
+/******************************/
+/*          Slider 3          */
+/******************************/
+.panel>div {
+    height: 100%;
+}
+
+.botones,
+.contenido-derecha {
+    width: 15%;
+}
+
+.pantalla {
+    width: 70%;
+    padding: 0 5%;
+    padding-bottom: 20px;
+}
+
+.botones {
+    align-items: flex-end;
+}
+
+.ok-sino {
+    text-align: center;
+    width: 100%;
+    height: 60%;
+}
+
+.tipo {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ok-sino img {
+    width: 100%;
+}
+
+.ok-sino>div {
+    font-size: 80%;
+    transition: 0.2s;
+    height: 33%;
+}
+
+.ok-sino>div:active {
+    scale: 0.95;
+    filter: drop-shadow(0 0 10px var(--mi-color));
+}
+
+.btn-Opc {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cont {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.contenido-derecha {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.entradas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 5px;
+    background: rgb(52, 207, 208);
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(52, 207, 208);
+    border: 2px solid rgb(52, 207, 208);
+    border-radius: 50%;
+}
+
+.contenido-derecha input {
+    background-color: black;
+    width: 100%;
+    height: 1.5rem;
+    border-color: var(--mi-color);
+    margin-bottom: 1px;
+    color: var(--mi-color);
+}
+
+#logo {
+    width: 100%;
+    height: 1.1rem;
+    margin-bottom: 5px;
+}
+
+#si,
+#no {
+    height: 1.1rem;
+    width: 45%;
+}
+
+#si {
+    margin-right: 10%;
+}
+
+.personalizar {
+    margin-bottom: 50%;
+}
+
+.pantallaBotom {
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pantalla ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: max-content;
+    position: relative;
+}
+
+.pantalla li {
+    position: relative;
+    float: left;
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.pantalla i {
+    cursor: pointer;
+}
+
+.iconos>li {
+    white-space: nowrap;
+    transition: 0.7s;
+}
+
+.iconos>li:hover {
+    transform: scale(1.1);
+}
+
+.iconos>li:active {
+    transform: scale(1);
+}
+
+.iconos>li i:active {
+    filter: drop-shadow(0 0 5px white);
+}
+
+.pantalla {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pantallaTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pantallaTop {
+    flex: 1;
+}
+
+.pantallaTop>div {
+    width: 35%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.pantallaTop>div:active {
+    scale: 0.95;
+    filter: drop-shadow(0 0 10px var(--mi-color));
+}
+
+.pantallaTop img {
+    width: 100%;
+}
+
+.pantallaTop span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/******************************/
+/*        Media querys        */
+/******************************/
+@media (max-width: 1000px) {
+    .entradas label,
+    .personalizar label {
+        display: none;
+    }
+    .personalizar {
+        margin-bottom: 20%;
+    }
+    .container-central h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    h2 {
+        font-size: 15px;
+    }
+    .boton {
+        display: none;
+    }
+
+    .btns-curriculum {
+        padding: 0 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .btns-curriculum div {
+        scale:0.9;
+    }
+    #pc {
+        left: 40%;
+    }
+
+    #laptop {
+        left: 20%;
+    }
+
+    .contenido-derecha input {
+        height: 1.2rem;
+    }
+
+    .entradas {
+        transform: scale(0.8);
+    }
+
+    .container-inferior {
+        height: calc(100% - 2vh);
+    }
+
+    i {
+        font-size: 60%;
+    }
+}
