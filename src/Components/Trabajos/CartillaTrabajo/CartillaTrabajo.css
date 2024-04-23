@@ -1,0 +1,42 @@
+.trabajos img {
+    max-width: 5rem;
+}
+
+.trabajos h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trabajos {
+    display: flex;
+    align-items: center;
+}
+
+.trabajos > div {
+    padding: 0 1rem;
+}
+.btn-dimensiones{
+    display: inline-block;
+    padding: 0.5rem 0rem!important;
+    font-size: 0.9rem!important;
+    cursor: pointer;
+    text-align: center;
+    min-width: 110px!important;
+}
+@media (max-width: 768px) {
+    .trabajos img {
+        max-width: 3.5rem;
+    }
+    .trabajos p {
+        margin: 0;
+        font-size: 14px;
+    }
+    
+@media (max-width: 768px) {
+    .btn-dimensiones{
+        font-size: 0.8rem!important;
+        min-width: 100px!important;
+    }
+}
+
+}

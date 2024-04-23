@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    justify-content:center;
+    padding: 40px;
+}
+.formulario h1{
+    text-align: center;
+    color: rgb(52, 207, 208);
+}
+.inputs{
+    margin: 50px 0;
+}
+
+.formulario form{
+    background-color: rgb(15, 41, 53);
+    border-color: rgb(19, 158, 159);
+    padding: 60px 80px;
+    border-radius: 30px;
+}
+.container-btn button{
+    width: 100%;
+}

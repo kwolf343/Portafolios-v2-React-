@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Principal.css';
+import './Experiencia.css';
 
 function Experiencia(props) {
     const [expanded, setExpanded] = useState(false);
@@ -15,10 +15,10 @@ function Experiencia(props) {
     };
 
     return (
-        <div className="container-experiencia col-md-6 col-sm-12 hover" id="pad">
-            <h3 className="principal">{props.empresa}</h3>
-            <p className="secundario"><strong>{props.puesto}</strong>{props.fecha}</p>
-            <ul className="secundario lista-funciones" style={listaStyle}>
+        <div className="container-experiencia">
+            <h3 className="color-principal">{props.empresa}</h3>
+            <p className="color-secundario"><strong>{props.puesto}</strong>{props.fecha}</p>
+            <ul className="color-secundario" style={listaStyle}>
                 {props.funciones.map((elemento, index) => (
                     <li key={index}>
                         {elemento}

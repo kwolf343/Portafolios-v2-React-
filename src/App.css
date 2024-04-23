@@ -1,0 +1,30 @@
+.enfasis {
+    color: rgb(52, 207, 208);
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+.fuente {
+    font-size: 35px;
+    font-weight: bold;
+}
+.color-principal {
+    color: rgb(204, 216, 248);
+}
+.color-secundario{
+    color: rgb(139, 146, 174);
+}
+.custom-btn {
+    color: rgb(34, 207, 208)!important;
+    border-color: rgb(34, 207, 208)!important;
+    margin-bottom: 5px;
+}
+
+.custom-btn:hover {
+    background-color: rgb(15, 41, 53)!important;
+    color: rgb(34, 207, 208)!important;
+    border-color: rgb(19, 158, 159)!important;
+}
+.custom-btn:active {
+    background-color: rgb(23, 62, 81) !important;
+    color: rgb(34, 207, 208)!important;
+}

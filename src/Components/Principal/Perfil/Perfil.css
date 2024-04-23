@@ -1,0 +1,17 @@
+.autor{
+    margin-top: 10px;
+}
+.container-img {
+    display: flex;
+    justify-content: end;
+}
+.container-img img {
+    width: 100%;
+    border-radius: 100%;
+}
+@media (max-width: 768px) {
+    .container-img img {
+        margin-top: 15px;
+        border-radius: 0%;
+    }
+}

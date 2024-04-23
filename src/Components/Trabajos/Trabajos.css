@@ -1,0 +1,24 @@
+.contenedor-trabajos {
+    padding: 0 3%;
+}
+
+.contenedor-trabajos li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+
+.contenedor-trabajos ul {
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.contenedor-trabajos ul > li:nth-child(2n + 1) {
+    background-color: rgb(12, 31, 58);
+}
+
+.contenedor-trabajos ul > li:nth-child(2n + 2) {
+    background-color: rgb(10,25,47);
+}

@@ -18,16 +18,16 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Inicio</a>
+                            <a className="nav-link" href="/">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Curriculum</a>
+                            <a className="nav-link" href="https://drive.usercontent.google.com/u/0/uc?id=1Dgst0fXjdW97WfrDEo34M0tfGTciJt_a&export=download">Curriculum</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Mis trabajos</a>
+                            <a className="nav-link" href="/trabajos">Mis trabajos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contactame</a>
+                            <a className="nav-link" href="/contactame">Contactame</a>
                         </li>
                     </ul>
                 </div>

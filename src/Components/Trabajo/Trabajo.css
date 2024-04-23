@@ -1,0 +1,124 @@
+.trabajo-container{
+    padding: 0 3%;
+    min-height: calc(100% - (3rem + (39px)));
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contenedor-arriba,.contenedor-abajo{
+    width: 100%;
+    float: left;
+}
+.contenedor-izquierda,.contenedor-derecha{
+    float: left;
+}
+.contenedor-izquierda i{
+    all: initial;
+    font-size: 30px;
+    color: rgb(139, 146, 174);
+}
+.contenedor-izquierda i:hover{
+    color: rgb(204, 216, 248);
+}
+.contenedor-izquierda{
+    width: 75%;
+}
+.contenedor-derecha{
+    width: 25%;
+}
+.contenedor-derecha li{
+    list-style: none;
+}
+.contenedor-arriba img{
+    width: 50%;
+}
+.contenedor-abajo>.contenedor-derecha img{
+    width: 30%;
+    margin-bottom: 15px;
+    border-radius: 25%;
+}
+.bajar{
+    margin: 15px 0;
+}
+.contenedor-imagenes{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.contenedor-imagenes>div{
+    width: 33%;
+    float: left;
+}
+.contenedor-imagenes img{
+    width: 90%;
+}
+.trabajo-container h1,p{
+    margin: 20px 0;
+}
+.secundario{
+    width: 100%;
+    
+}
+.trabajo-container h1{
+    margin-top: 5px;
+    font-size: 25px;
+}
+.trabajo-container h3{
+    text-align: center;
+}
+.trabajo-container h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-derecha, .contenedor-derecha li{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-derecha ul{
+    padding: 0;
+}
+.contenedor-derecha i{
+    color: rgb(52, 207, 208);
+    font-size: 25px;
+}
+.contenedor-derecha i:hover{
+    color: rgb(26,46,64);
+}
+.contenedor-abajo{
+    flex: 1;
+}
+.cien{
+    width: 100%;
+}
+.descripcionLarga> *{
+    word-wrap: break-word;
+}
+
+.block{
+    display: inline-block;
+}
+@media screen and (min-width:800px){
+    .contenedor-izquierda{
+        width: 87%;
+    }
+    .contenedor-derecha{
+        width: 13%;
+    }
+}
+@media screen and (max-width:800px){
+    .contenedor-descripcion{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .contenedor-imagenes>div{
+        width: 100%;
+    }
+    .trabajo-container h3{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .contenedor-abajo>.contenedor-derecha img{
+        width: 50%;
+    }
+}
