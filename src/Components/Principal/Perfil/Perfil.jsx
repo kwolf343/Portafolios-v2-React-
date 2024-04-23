@@ -8,7 +8,7 @@ function Perfil() {
                 <p className="color-secundario">
                     Soy un apasionado desarrollador web con amplios conocimientos y experiencia en desarrollo web manejando HTML, CSS, Javascript,
                     typescript trabajando con SPA con frameworks y librerias javascript como angular y react, además de eso manejo los lenguajes de
-                    programación Java y C# (centrado principalmente en Java) entorno, SpringBoot y Primefaces con bases de datos SQL Server y MySql.
+                    programación Java y C# (centrado principalmente en Java) entorno, SpringBoot con bases de datos SQL Server y MySql.
                     <br />
                     Como agregado, puedo trabajar con GitHub y Docker
                 </p>
@@ -17,7 +17,6 @@ function Perfil() {
                 <div className='col-md-10 col-sm-12'>
                 <img src={require('../../../Imagenes/perfil.png')} />
                 </div>
-                
             </div>
         </>
     );

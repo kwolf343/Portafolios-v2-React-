@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MensajesService from '../../Services/MensajesService';
+import MensajesService from '../../Services/MensajesService.js';
 import ServicioAlertas from "../../Services/ServicioAlertas.js";
 import './Contactame.css';
 import msg from '../../Models/msg.js';

@@ -1,0 +1,10 @@
+.error-container{
+    justify-content:center;
+    align-items:center;
+    padding: 10%;
+}
+.codigo-status{
+    font-size: 100px;
+    text-align: center;
+    margin: 20px 0;
+}

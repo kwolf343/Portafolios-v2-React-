@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './Components/Header/Header.js';
-import Footer from './Components/Footer/Footer.js';
+import Header from './Components/Header/Header.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 import Principal from './Components/Principal/Principal.jsx';
-import Login from './Components/Login/Login.js';
-import Trabajos from './Components/Trabajos/Trabajos.js';
-import Error from './Components/Error/Error.js';
-import Trabajo from './Components/Trabajo/Trabajo.js';
-import Generador from './Components/Generador/Generador.js';
+import Login from './Components/Login/Login.jsx';
+import Trabajos from './Components/Trabajos/Trabajos.jsx';
+import Error from './Components/Error/Error.jsx';
+import Trabajo from './Components/Trabajo/Trabajo.jsx';
+import Generador from './Components/Generador/Generador.jsx';
 import ProtectedRoute from './Utils/ProtectedRoute.js';
-import Contactame from './Components/Contactame/Contactame.js';
+import Contactame from './Components/Contactame/Contactame.jsx';
 
 function App() {
   return (

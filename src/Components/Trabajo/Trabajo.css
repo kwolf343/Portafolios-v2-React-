@@ -16,6 +16,7 @@
     all: initial;
     font-size: 30px;
     color: rgb(139, 146, 174);
+    cursor: pointer;
 }
 .contenedor-izquierda i:hover{
     color: rgb(204, 216, 248);
