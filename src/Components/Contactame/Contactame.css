@@ -4,3 +4,9 @@
 #mensaje{
     height: 150px;
 }
+
+@media (max-width: 1000px) {
+    .formulario form{
+        padding: 5%;
+    }
+}

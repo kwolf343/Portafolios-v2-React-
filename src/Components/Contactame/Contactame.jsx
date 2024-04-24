@@ -23,6 +23,8 @@ function Contactame() {
                     colorLogo: 'rgb(71,155,34)',
                     colorBoton: 'rgb(48,133,214)',
                     colorBoton2: 'red'
+                }).then((result) => {
+                    window.location.href = "/";
                 });
             } catch (error) {
                 ServicioAlertas.mensaje({

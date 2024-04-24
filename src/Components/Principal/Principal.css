@@ -13,8 +13,19 @@
     margin-top: 100px;
 }
 .desarrollo{
-    padding: 0 40%;
+    padding: 0 10%;
 }
 .desarrollo .row{
     text-align: left;
+}
+@media (max-width: 768px) {
+    .row>div{
+        margin-bottom: 10px;
+    }
+    .curso{
+        padding: 0 5%;
+    }
+    .desarrollo{
+        padding: 0 5%;
+    }
 }

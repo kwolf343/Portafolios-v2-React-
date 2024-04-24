@@ -31,12 +31,8 @@
         margin: 0;
         font-size: 14px;
     }
-    
-@media (max-width: 768px) {
     .btn-dimensiones{
         font-size: 0.8rem!important;
         min-width: 100px!important;
     }
-}
-
 }

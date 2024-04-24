@@ -49,6 +49,7 @@
 .contenedor-imagenes>div{
     width: 33%;
     float: left;
+    margin-bottom: 10px;
 }
 .contenedor-imagenes img{
     width: 90%;

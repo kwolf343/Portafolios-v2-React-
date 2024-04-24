@@ -41,6 +41,7 @@ function Principal() {
                         />
                     </div>
                     <div className="col-md-6 col-sm-12">
+                        <br/>
                         <Experiencia
                             empresa='OLS DATA'
                             puesto='OPERADOR DE SISTEMAS Y PROGRAMADOR'
@@ -91,9 +92,9 @@ function Principal() {
                         <button key={index} className="btn custom-btn me-2" type="button" onClick={() => seleccionarCurso(index)}>{item}</button>
                     ))}
                 </div>
-                <div id="separar" className="desarrollo container">
+                <div className="desarrollo ">
                     <p className="enfasis">Desarrollo profesional</p>
-                    <div className="container">
+                    <div className="">
                         <Desarrollo
                             titulo='Motor de base de datos con CLI'
                             descripcion='Este proyecto trató del desarrollo de un motor de base de datos con lenguaje SQL en español que permite realizar las principales operaciones de un gestor de bases de datos, como la creación de bases de datos, usuarios y tablas, así como su eliminación, edición e inspección de las tablas y su información. El estudio se centró en el desarrollo de aplicaciones CLI compatibles con minix (linux) y windows, programadas en lenguaje C++.'
@@ -103,7 +104,7 @@ function Principal() {
                         />
                     </div>
                     <br /><br />
-                    <div className="container">
+                    <div className="">
                         <Desarrollo
                             titulo='Desarrollo de sistema SAMI'
                             descripcion='Desarrollé un software para manejo de control de inventario llamado SAMI (SEMI AUTOMATICO MANEJADOR DE INVENTARIO) en lenguaje .NET con MySql y Windows Forms que posteriormente vendería y actualmente está en funcionamiento en despensa asunción en Izalco'
